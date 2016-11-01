@@ -1,0 +1,23 @@
+{
+  "name": "webpack-react-hmr",
+  "version": "1.0.0",
+  "description": "Webpack + React + HMR",
+  "main": "app/app.js",
+  "author": "Tomasz Ducin <tomasz@ducin.it>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "file-loader": "^0.9.0",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
